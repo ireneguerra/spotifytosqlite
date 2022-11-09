@@ -1,9 +1,9 @@
-package es.ulpgc.spotify.downloader;
+package es.ulpgc.spotify.downloader.controller;
 
-import es.ulpgc.spotify.downloader.campos.Album;
-import es.ulpgc.spotify.downloader.campos.Artist;
-import es.ulpgc.spotify.downloader.campos.Track;
-import es.ulpgc.spotify.downloader.database.DatabaseManager;
+import es.ulpgc.spotify.downloader.model.Album;
+import es.ulpgc.spotify.downloader.model.Artist;
+import es.ulpgc.spotify.downloader.model.Track;
+import es.ulpgc.spotify.downloader.model.DatabaseManager;
 
 import java.sql.Statement;
 import java.util.ArrayList;

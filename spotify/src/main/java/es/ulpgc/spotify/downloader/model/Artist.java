@@ -1,4 +1,4 @@
-package es.ulpgc.spotify.downloader.campos;
+package es.ulpgc.spotify.downloader.model;
 
 public class Artist {
     private final String name;

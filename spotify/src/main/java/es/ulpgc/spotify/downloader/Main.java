@@ -1,4 +1,6 @@
 package es.ulpgc.spotify.downloader;
+import es.ulpgc.spotify.downloader.controller.Controller;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;

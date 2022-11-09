@@ -1,13 +1,12 @@
-package es.ulpgc.spotify.downloader;
+package es.ulpgc.spotify.downloader.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import es.ulpgc.spotify.downloader.campos.Album;
-import es.ulpgc.spotify.downloader.campos.Artist;
-import es.ulpgc.spotify.downloader.campos.Track;
-import es.ulpgc.spotify.downloader.spotify.SpotifyAccessor;
+import es.ulpgc.spotify.downloader.model.Album;
+import es.ulpgc.spotify.downloader.model.Artist;
+import es.ulpgc.spotify.downloader.model.Track;
 
 import java.util.ArrayList;
 import java.util.List;
